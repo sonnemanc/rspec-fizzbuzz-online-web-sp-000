@@ -1,12 +1,4 @@
-def fizzbuzz(last_number)
-    if (x % 3 == 0) && (x % 5 == 0)
-      puts " FizzBuzz"
-    elsif x % 3 == 0
-      puts " Fizz"
-    elsif x % 5 == 0
-      puts " Buzz"
-    else
-      puts "nil"
-    end
-  end
+def fizzbuzz(int)
+  if int % 3 == 0
+    "Fizz"
 end
