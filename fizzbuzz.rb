@@ -7,7 +7,7 @@ def fizzbuzz(last_number)
     elsif x % 5 == 0
       puts " Buzz"
     else
-      puts x
+      puts "nil"
     end
   end
 end
